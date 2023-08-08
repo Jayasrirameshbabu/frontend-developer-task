@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front End Developer</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <hr />
+        <p>Bundle & Save</p>
+        <hr />
+      </div>
+      <div class="box" onclick="toggleBoxContent(1)">
+        <div class="box-header">
+          <div style="display: flex; flex-direction: row; gap: 5px">
+            <div>
+              <label>
+                <input type="radio" id="radio-1" value="" text="1 Pair" />
+              </label>
+            </div>
+            <div class="div">
+              <p>1 Pair</p>
+              <p class="bold-header">DKK 195.00</p>
+            </div>
+          </div>
+          <div class="div">
+            <br />
+            <p class="bold-header">50% off</p>
+          </div>
+        </div>
+        <div class="box-content" id="box-content-1">
+          <table>
+            <tr>
+              <th></th>
+              <th>Size</th>
+              <th>Color</th>
+            </tr>
+
+            <tr>
+              <td>#1</td>
+              <td>
+                <select class="dropdown">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                </select>
+              </td>
+              <td>
+                <select class="dropdown">
+                  <option value="red">Red</option>
+                  <option value="blue">blue</option>
+                  <option value="green">Green</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>#2</td>
+              <td>
+                <select class="dropdown">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                </select>
+              </td>
+              <td>
+                <select class="dropdown">
+                  <option value="red">Red</option>
+                  <option value="blue">blue</option>
+                  <option value="green">Green</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="box" onclick="toggleBoxContent(2)">
+        <div class="box-header">
+          <div style="display: flex; flex-direction: row; gap: 5px">
+            <div>
+              <label>
+                <input type="radio" id="radio-2" value="" text="2 Pair" />
+              </label>
+            </div>
+            <div class="div">
+              <p>2 Pair</p>
+              <p class="bold-header">DKK 345.00</p>
+            </div>
+          </div>
+          <div class="div">
+            <br />
+            <p style="text-decoration: line-through; color: gray">DKK 195.00</p>
+          </div>
+          <div class="div">
+            <p style="color: #007f61">Most Popular</p>
+            <p class="bold-header">40% off</p>
+          </div>
+        </div>
+        <div class="box-content" id="box-content-2">
+          <table>
+            <tr>
+              <th></th>
+              <th>Size</th>
+              <th>Color</th>
+            </tr>
+
+            <tr>
+              <td>#1</td>
+              <td>
+                <select class="dropdown">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                </select>
+              </td>
+              <td>
+                <select class="dropdown">
+                  <option value="red">Red</option>
+                  <option value="blue">blue</option>
+                  <option value="green">Green</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>#2</td>
+              <td>
+                <select class="dropdown">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                </select>
+              </td>
+              <td>
+                <select class="dropdown">
+                  <option value="red">Red</option>
+                  <option value="blue">blue</option>
+                  <option value="green">Green</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="box" onclick="toggleBoxContent(3)">
+        <div class="box-header">
+          <div style="display: flex; flex-direction: row; gap: 5px">
+            <div>
+              <label>
+                <input type="radio" id="radio-3" value="" text="3 Pair" />
+              </label>
+            </div>
+            <div class="div">
+              <p>3 Pair</p>
+              <p class="bold-header">DKK 528.00</p>
+            </div>
+          </div>
+          <div class="div">
+            <br />
+            <p class="bold-header">60% off</p>
+          </div>
+        </div>
+        <div class="box-content" id="box-content-3">
+          <table>
+            <tr>
+              <th></th>
+              <th>Size</th>
+              <th>Color</th>
+            </tr>
+
+            <tr>
+              <td>#1</td>
+              <td>
+                <select class="dropdown">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                </select>
+              </td>
+              <td>
+                <select class="dropdown">
+                  <option value="red">Red</option>
+                  <option value="blue">blue</option>
+                  <option value="green">Green</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>#2</td>
+              <td>
+                <select class="dropdown">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                </select>
+              </td>
+              <td>
+                <select class="dropdown">
+                  <option value="red">Red</option>
+                  <option value="blue">blue</option>
+                  <option value="green">Green</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer">
+        <p style="color: #007f61">Free 2 Day Shipping</p>
+        <p>Total : <span>DKK 360.00</span></p>
+      </div>
+      <button class="button" onclick="buttonClicked()">+ Add to Cart</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
